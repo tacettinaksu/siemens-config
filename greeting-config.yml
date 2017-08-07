@@ -5,3 +5,12 @@ security:
 management:
   security:
     enabled: false
+
+
+logging:
+  level:
+    io:
+      pivotal: DEBUG
+
+greeting:
+  displayFortune: true
